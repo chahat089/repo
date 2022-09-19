@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.844);
+    position: sticky;
+    top: 0;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li{
+    font-family: 'Times New Roman';
+    font-size: larger;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 8px 25px;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+#About{
+    
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+#pic{
+    display: flex;
+}
+#pic img{
+    width: 467px;
+    height: 500px;
+    border-radius: 70%;
+}
+#bio{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+    font-style: italic;
+    font-weight: bold;
+    font-family:  Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+}
+#bio h1{
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.72);
+    position: sticky;
+    top: 0;
+}
+#bio h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#bio h4{
+    font-size: 1.5rem;
+    font-style: oblique;
+    color: blue;
+}
+#bio h5{
+    font-size: medium;
+    font-style: oblique;
+    color: green;
+    font-size: 1.4rem;
+}
+#more_about_me{
+    background-image: url(https://thumbs.dreamstime.com/b/hobby-concept-background-hobby-background-assembling-plastic-model-kits-109264533.jpg);
+    background-size: contain;
+    background-repeat: repeat-x;
+    width:1500px;
+    height:650px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+#hobbies h1{
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.72);
+    position: sticky;
+}
+#hobbies{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: center;
+    padding: 10px;
+    font-style: italic;
+    font-weight: bold;
+    font-family:  Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+}
+#Contact {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    font-style: italic;
+    font-weight: bold;
+    font-family:  Calibri, 'Trebuchet MS', sans-serif;
+}
+#Contact p{
+       font-size: 1.7rem;
+       font-style: italic;
+       font-weight: bold;
+       font-family:  Calibri, 'Trebuchet MS', sans-serif;
+       color: darkblue;
+}
+#Contact h1{
+    font-size: 2.0rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.72);
+    font-style: italic;
+}
+footer{
+    background: url(https://tse4.mm.bing.net/th?id=OIP.3ddCFy6DzuihwmlzsbeiWgHaDV&pid=Api&P=0);
+    background-repeat: repeat-x;
+    width:1500px;
+    height:1000px;
+    position: relative;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.social{
+    display: flex;
+}
+.social a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     border-radius: 50%;
+     margin: 30px 16px;
+    background: lightblue;
+    color: darkblue;
+    text-decoration: none;
+    font-size: 2rem;
+}
+.social a:hover{
+    transform: scale(2);
+    box-shadow: 0px 0px 20px whitesmoke;
+}
+
